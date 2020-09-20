@@ -3,19 +3,39 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
-
 import './App.css';
+import CoxsBazar from './component/Cox\'sBazar/CoxsBazar';
+
+import Heder from './component/Heder/Heder';
 import Home from './component/Home/Home';
+import Login from './component/Login/Login';
+import Sreemangal from './component/Sreemangal/Sreemangal';
+import Sundarbans from './component/Sundarbans/Sundarbans';
 
 function App() {
   return (
     <Router>
-      <Home></Home>
+      <Heder></Heder>
+      
       <Switch>
-          <Route path="/">
-              
+          <Route exact path="/">
+          <Home></Home> 
+          </Route>
+          <Route path="/coxsbazar">
+            <CoxsBazar/>
+          </Route>
+
+          <Route path="/sreemangal">
+            <Sreemangal></Sreemangal>
+          </Route>
+
+          <Route path="/sundarbans">
+            <Sundarbans/>
+          </Route>
+
+          <Route path="/login">
+            <Login/>
           </Route>
       </Switch>
 

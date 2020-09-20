@@ -1,0 +1,12 @@
+.body-style{
+    display: flex;
+    margin: 10%;
+}
+.form-style{
+    border: 1px solid red;
+    padding: 2%;
+    margin-left: 18%;
+}
+.btn-style{
+    margin-top: 2%;
+}
