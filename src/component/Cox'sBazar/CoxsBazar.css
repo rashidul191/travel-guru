@@ -1,9 +1,19 @@
+.body{
+    background: url(../../Images/Image/Rectangle\ 1.png);
+   
+}
+.bg-style{
+    background-color: rgba(0, 0, 0, 0.7);
+}
 .body-style{
     display: flex;
-    margin: 10%;
+    color: white;
+      
 }
 .form-style{
-    border: 1px solid red;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
     padding: 2%;
     margin-left: 18%;
 }
