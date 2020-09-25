@@ -148,10 +148,8 @@ function Login() {
     user.updateProfile({
       displayName: name
     }).then(function() {
-      // Update successful.
       console.log('user name updated successfully');
     }).catch(function(error) {
-      // An error happened.
       console.log(error);
     });
   }
