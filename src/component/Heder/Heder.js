@@ -14,11 +14,11 @@ const Heder = () => {
                     </Form>
 
                     <Nav className="ml-auto ">
-                        <Link to="/home">News</Link>
-                        <Link to="/destination">Destination</Link>
-                        <Link to="">Blog</Link>
-                        <Link to="">Contact</Link>
-                        <Link to="/login"><Button variant="warning">Login</Button></Link>
+                        <Link className="style-nav" to="/home">News</Link>
+                        <Link className="style-nav" to="/destination">Destination</Link>
+                        <Link className="style-nav" to="">Blog</Link>
+                        <Link className="style-nav" to="">Contact</Link>
+                        <Link className="style-nav" to="/login"><Button variant="warning">Login</Button></Link>
                     </Nav>
                 </Navbar>
 
